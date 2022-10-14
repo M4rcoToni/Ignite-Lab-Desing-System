@@ -16,16 +16,20 @@ module.exports = {
     colors:{
         white: '#ffffff',
         back:'#000',
-        
-        'gray-900': '#121214',
-        'gray-800': '#202024',
-        'gray-400': '#7c7c8a',
-        'gray-200': '#c4c4cc',
-        'gray-100': '#e1e1e6',
+        transparent: 'transparent',
+        gray: {
+          900: '#121214',
+          800: '#202024',
+          400: '#7c7c8a',
+          200: '#c4c4cc',
+          100: '#e1e1e6',
+        } ,
 
-
-        'cian-500': '#81d8f7',
-        'cian-300': '#9BE1FB',
+        cyan:{
+          500: '#81d8f7',
+          300: '#9BE1FB',
+        },
+      
       },
     extend: {
       
