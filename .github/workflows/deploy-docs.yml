@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+    build-and-deploy:
+      runs-on: ubuntu-latest
 
     steps:
 
