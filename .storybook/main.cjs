@@ -18,7 +18,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/Ignite-Lab-Desing-System/'
+      config.base = 'Ignite-Lab-Desing-System'
     }
 
     return config
